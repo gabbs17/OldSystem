@@ -1,0 +1,388 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #e1f1fd;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    width: 1500px;
+}
+.head{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #26408B;
+    color: white;
+}
+.body{
+    height: 71%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.footer{
+    width: 100%;
+    height: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A3B67;
+}
+.school_Logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watermark{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    border-radius: 50%;
+    height: 190px;
+    width: 190px;
+}
+.name{
+    width: 700px;
+    height: 150px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fleft{
+    height: 100%;
+    width: 10%;
+}
+.fright{
+    height: 100%;
+    width: 10%;
+    color: #4663ac;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+.fmid{
+    height: 100%;
+    width: 80%;
+    color: #e1f1fd;
+    font-style: italic;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to top,#3D60A7, #26408B);
+}
+.bottom{
+    width: 100%;
+    height: 92%;
+
+    display: flex;
+    flex-direction: row;
+}
+.space1{
+    height: 100%;
+    width: 60%;
+    color: white;
+    text-align: center;
+    margin: 16px;
+}
+.fa-calendar{
+    height: 60px;
+    width: 200px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 180px;
+   
+}
+.date_Now{
+    height: 100%;
+    width: 25%;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-right: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+.log_Out{
+    height: 100%;
+    width: 15%;
+}
+.logout_Btn2{
+    margin: 150px;
+    margin-top: 8px;
+    margin-left: 30px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-image: linear-gradient(to top,#3D60A7, #26408B);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.logout_Left{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logout_Right{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-left: -20px;
+}
+.navigation{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #3D60A7;
+}
+.content{
+    height: 100%;
+    width: 80%;
+}
+.dashboard{
+    height: 13%;
+    width: 100%;
+    color: white;
+    background-color: #3D60A7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.dashboard a{
+    text-decoration: none;
+    background-color: #3D60A7;
+    color: white;
+    font-size: 12px;
+}
+.manage_Student{
+    height: 13%;
+    width: 100%;
+    color: black;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.manage_Student a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+}
+.add_Student{
+    height: 13%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.add_Student a{
+    background-color: #3D60A7;
+    color: white;
+    font-size: 12px;
+}
+.space2{
+    height: 61%;
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: flex-end;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+#btn_RulesAndRegulation{
+    color: white;
+    font-size: 12px;
+}
+.content_Top{
+    height: 10%;
+    width: 97%;
+    background-color: #26408B;
+    border-radius: 100px;
+    margin: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 22px;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.content_Body{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+button{
+    cursor: pointer;
+}
+.manage_Btn, .add_Btn, .logout_Btn{
+    height: 110%;
+    width: 100%;
+
+}
+.manage_Btn button, .add_Btn button, .logout_Btn button{
+   margin-top: 0px;
+   margin-left: 90px;
+   height: 70px;
+   width: 250px;
+   border-radius: 50px;
+}
+.fa-power-off{
+    color:red;
+}
+#logout_Para, #student_Para, #addStudent_Para{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.fa-gauge{
+    color:white;
+}
+
+#currentTime{
+    margin-left: 70px;
+    height: 10%;
+    width: 50%;
+    padding-top: 8px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.student_Name, .student_Lrn{
+    height: 100%;
+    width: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+}
+.identity_Label{
+    height: fit-content;
+    width: fit-content;
+    padding-right: 10px;
+}
+.identity_Value{
+    height: fit-content;
+    width: fit-content;
+    color: red;
+}
+.content_Body input{
+    height: 30px;
+    width: 500px;
+    padding: 15px 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #b3cde0;
+    border: 1px solid #7d8f9c;
+}
+.content_Body select{
+    height: 30px;
+    width: 500px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #b3cde0;
+    border: 1px solid #7d8f9c;
+}
+.content_Body option{
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #7d8f9c;
+}
+#btn_UpdateOffense{
+    width: 500px;
+    height: 40px;
+    color: white;
+    background-color: #26408B;
+    border: 1px solid #1e336f;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
